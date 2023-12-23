@@ -1,0 +1,15 @@
+{
+	"name": "@btakita/domain--any--brookebrodack",
+	"type": "module",
+	"version": "0.0.0",
+	"module": "src/index.ts",
+	"types": "src/index.ts",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.3.3"
+	}
+}
