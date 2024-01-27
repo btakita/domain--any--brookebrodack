@@ -1,3 +1,3 @@
 export type brookers__timeline_op_T =
-	|{ type:'html', bullet:'default'|'video', html:string }
-	|{ type:'youtube', bullet:'video', videoId:string }
+	|{ type:'html', title:string, bullet:'default'|'video', html:string }
+	|{ type:'youtube', title:string, bullet:'video', videoId:string }
