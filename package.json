@@ -2,8 +2,12 @@
 	"name": "@btakita/domain--any--brookebrodack",
 	"type": "module",
 	"version": "0.0.0",
-	"module": "src/index.ts",
+	"module": "index.ts",
 	"types": "src/index.ts",
+	"exports": {
+		".": "./index.ts",
+		"./package.json": "./package.json"
+	},
 	"dependencies": {
 	},
 	"devDependencies": {
