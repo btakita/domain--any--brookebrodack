@@ -5,6 +5,8 @@
 	"types": "index.ts",
 	"exports": {
 		".": "./index.ts",
+		"./brookers": "./brookers/index.ts",
+		"./social": "./social/index.ts",
 		"./package.json": "./package.json"
 	},
 	"files": [
@@ -12,10 +14,7 @@
 		"*.js",
 		"*.json",
 		"brookers",
-		"instagram",
-		"linkedin",
-		"patreon",
-		"youtube"
+		"social"
 	],
 	"dependencies": {
 	},
