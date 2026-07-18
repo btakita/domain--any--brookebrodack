@@ -6,6 +6,7 @@
 	"exports": {
 		".": "./index.ts",
 		"./brookers": "./brookers/index.ts",
+		"./guestbook": "./guestbook/index.ts",
 		"./social": "./social/index.ts",
 		"./package.json": "./package.json"
 	},
